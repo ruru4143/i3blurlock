@@ -1,25 +1,7 @@
-# i3blurlock
+# i3blurlock_and_composite
 
-Simple blur lock screen for i3. Works on top of i3lock.
+A fork of i3blurlock
 
-## Install
+## Usage
 
-1. Install dependencies:
-```
-    yaourt -S xkb-switch-git --noconfirm
-```
-
-2. Clone this repo
-
-3. Build and install:
-```
-    makepkg -sfi
-```
-Or just Build:
-```
-    makepkg -sf
-```
-And install later using pacman:
-```
-    sudo pacman -U i3blurlock-*.tar.xz
-```
+/path/to/gitrepo/i3blurlock_and_composite.sh /path/to/picture/with/alpha/channel.png
